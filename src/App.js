@@ -12,6 +12,7 @@ class App extends Component {
 	}
 
 	getImagesInput = (evt) => {
+		// this.setState({ upd: document.getElementById('namefind').value })
 		fetch(
 			`https://api.giphy.com/v1/gifs/search?api_key=O5KMbEo8sOzB4NTZ5vD04vSkLbiA75To&q=${
 				document.getElementById('namefind').value
